@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8hJBaQWE1/E=",
+  "success": true,
+  "projectFilePath": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\LoanApplicationService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinhn\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}

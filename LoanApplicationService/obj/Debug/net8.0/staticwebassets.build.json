@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "WmrhHdcTEgiuZHjZpLEz2PWLjG/RPcNhXRWuPcOMZJs=",
+  "Source": "LoanApplicationService",
+  "BasePath": "_content/LoanApplicationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
