@@ -10,7 +10,7 @@ namespace LoanApplicationService.RabbitMq
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost",
+                HostName = "my-rabbit",
                 UserName = "guest",
                 Password = "guest"
             };

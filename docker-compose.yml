@@ -1,34 +1,55 @@
 version: '3.8'
 
+networks:
+  loaneval:
+    driver: bridge
+
 services:
   loanapplicationservice:
     build:
-      context: ./loanapplicationservice
+      context: ./LoanApplicationService
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"
+      - "8080:80"
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ASPNETCORE_ENVIRONMENT=Development
     depends_on:
       - rabbitmq
+    networks:
+      - loaneval
 
   customerservice:
     build:
       context: ./CustomerService
       dockerfile: Dockerfile
     ports:
-      - "8081:8080"
+      - "8081:80"
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ASPNETCORE_ENVIRONMENT=Development
     depends_on:
       - rabbitmq
+    networks:
+      - loaneval
 
   rabbitmq:
-    image: rabbitmq:3-management
+    image: rabbitmq:3.9-management-alpine
+    hostname: my-rabbit
+    container_name: my-rabbit
     ports:
       - "5672:5672"
       - "15672:15672"
+    networks:
+      - loaneval
     volumes:
-      - ./RabbitMq/etc/definition.json:/etc/rabbitmq/definitions.json
-    environment:
-      RABBITMQ_DEFAULT_USER: guest
-      RABBITMQ_DEFAULT_PASS: guest
-      RABBITMQ_ERLANG_COOKIE: 'rabbitcookie'
-      RABBITMQ_NODENAME: 'rabbit@localhost'
-      RABBITMQ_CONFIG_FILE: '/etc/rabbitmq/definitions.json'
+      - ./rabbitmq/etc/definitions.json:/etc/rabbitmq/definitions.json
+      - ./rabbitmq/etc/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - ./rabbitmq/data:/var/lib/rabbitmq/mnesia/rabbit@my-rabbit
+      - ./rabbitmq/logs:/var/log/rabbitmq/log
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:15672"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    
