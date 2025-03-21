@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CustomerService.Controllers
 {
     [ApiController]
-    [Route(template:"[controller]")]
+    [Route("customerService")]
     public class CustomerController : ControllerBase
     {
         private readonly CustomerDbContext _customerDbContext;
@@ -21,15 +21,9 @@ namespace CustomerService.Controllers
             return await _customerDbContext.Customers.ToListAsync();
         }
 
-        [HttpGet]
-        [Route("loanApplications")]
-        public async Task<ActionResult<IEnumerable<LoanApplication>>> GetLoanApplications()
-        {
-            return await _customerDbContext.LoanApplications.ToListAsync();
-        }
-
 
         [HttpPost]
+        [Route("register")]
         public async Task Register(Customer customer)
         {
             _customerDbContext.Customers.Add(customer);

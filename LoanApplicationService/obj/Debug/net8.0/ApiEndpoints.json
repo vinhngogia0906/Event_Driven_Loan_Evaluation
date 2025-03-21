@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "LoanApplicationService.Controllers.LoanApplicationController",
+    "Method": "GetLoanApplications",
+    "RelativePath": "loanApplicationService/getLoanApplications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LoanApplicationService.Models.LoanApplication, LoanApplicationService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LoanApplicationService.Controllers.LoanApplicationController",
+    "Method": "SubmitLoanApplication",
+    "RelativePath": "loanApplicationService/submitLoanApplication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "application",
+        "Type": "LoanApplicationService.Models.LoanApplication",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LoanApplicationService.Models.LoanApplication",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LoanApplicationService.Controllers.LoanApplicationController",
+    "Method": "UpdateLoanApplication",
+    "RelativePath": "loanApplicationService/updateLoanApplications",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "application",
+        "Type": "LoanApplicationService.Models.LoanApplication",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LoanApplicationService.Models.LoanApplication",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

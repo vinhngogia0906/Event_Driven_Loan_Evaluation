@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/Customer/customers": {
+    "/customerService/customers": {
       "get": {
         "tags": [
           "Customer"
@@ -43,45 +43,7 @@
         }
       }
     },
-    "/Customer/loanApplications": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/LoanApplication"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/LoanApplication"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/LoanApplication"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/Customer": {
+    "/customerService/register": {
       "post": {
         "tags": [
           "Customer"
@@ -135,30 +97,8 @@
             "nullable": true
           },
           "applicationId": {
-            "type": "string",
-            "format": "uuid"
-          }
-        },
-        "additionalProperties": false
-      },
-      "LoanApplication": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "limit": {
             "type": "integer",
             "format": "int32"
-          },
-          "purpose": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
