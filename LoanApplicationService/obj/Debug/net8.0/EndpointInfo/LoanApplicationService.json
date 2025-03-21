@@ -177,6 +177,9 @@
           "customerId": {
             "type": "string",
             "format": "uuid"
+          },
+          "approved": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

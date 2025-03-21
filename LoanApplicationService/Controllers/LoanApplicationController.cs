@@ -62,7 +62,8 @@ namespace LoanApplicationService.Controllers
                 Name = application.Name,
                 LoanLimit = application.LoanLimit,
                 Purpose = application.Purpose,
-                CustomerId = application.CustomerId
+                CustomerId = application.CustomerId,
+                Approved = false
             });
 
             await _rabbitMqUtil.PublishMessageQueue("loanEvaluation.loanApplication", loanApplication);

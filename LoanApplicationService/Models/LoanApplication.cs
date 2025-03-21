@@ -7,5 +7,6 @@
         public int LoanLimit {  get; set; }
         public string Purpose { get; set; }
         public Guid CustomerId { get; set; }
+        public bool Approved { get; set; }
     }
 }
