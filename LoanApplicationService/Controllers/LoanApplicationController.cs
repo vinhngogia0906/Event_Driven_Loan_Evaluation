@@ -1,4 +1,5 @@
 ﻿using LoanApplicationService.Models;
+using LoanApplicationService.RabbitMq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
@@ -10,10 +11,12 @@ namespace LoanApplicationService.Controllers
     public class LoanApplicationController : ControllerBase
     {
         private readonly LoanApplicationDbContext _loanApplicationDbContext;
+        private readonly IRabbitMqUtil _rabbitMqUtil;
 
-        public LoanApplicationController(LoanApplicationDbContext loanApplicationDbContext)
+        public LoanApplicationController(LoanApplicationDbContext loanApplicationDbContext, IRabbitMqUtil rabbitMqUtil)
         {
             _loanApplicationDbContext = loanApplicationDbContext;
+            _rabbitMqUtil = rabbitMqUtil;
         }
 
         [HttpGet]
@@ -41,8 +44,15 @@ namespace LoanApplicationService.Controllers
 
         [HttpPost]
         [Route("submitLoanApplication")]
-        public async Task<ActionResult<LoanApplication>> SubmitLoanApplication(LoanApplication application)
+        public async Task<ActionResult<LoanApplication>> SubmitLoanApplication(string name, int limit, string purpose, Guid customerId)
         {
+            var application = new LoanApplication
+            {
+                Name = name,
+                LoanLimit = limit,
+                Purpose = purpose,
+                CustomerId = customerId
+            };
             _loanApplicationDbContext.LoanApplications.Add(application);
             await _loanApplicationDbContext.SaveChangesAsync();
 
@@ -52,7 +62,10 @@ namespace LoanApplicationService.Controllers
                 Name = application.Name,
                 LoanLimit = application.LoanLimit,
                 Purpose = application.Purpose,
+                CustomerId = application.CustomerId
             });
+
+            await _rabbitMqUtil.PublishMessageQueue("loanEvaluation.loanApplication", loanApplication);
 
             return CreatedAtAction("GetLoanApplications", new {application.Id}, application);
         }

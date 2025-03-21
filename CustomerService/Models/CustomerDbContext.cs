@@ -12,6 +12,12 @@ namespace CustomerService.Models
         {
             
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Customer>()
+                .Property(c => c.Id)
+                .HasDefaultValueSql("hex(randomblob(16))");  // Auto-generate GUIDs
+        }
 
         public DbSet<Customer> Customers { get; set; }
     }
