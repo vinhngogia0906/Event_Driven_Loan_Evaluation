@@ -7,6 +7,12 @@
       "password": "guest",
       "hashing_algorithm": "rabbit_password_hashing_sha256",
       "tags": "administrator"
+    },
+    {
+      "name": "admin",
+      "password_hash": "AHfDyn3qVNGuYjZqNgbsGBLbxXIaHFSrQyQYCujjwIohAF8F",
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "tags": "administrator"
     }
   ],
   "vhosts": [
@@ -21,11 +27,25 @@
       "configure": ".*",
       "write": ".*",
       "read": ".*"
+    },
+    {
+      "user": "admin",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
     }
   ],
   "topic_permission" : [
     {
       "user": "guest",
+      "vhost":"/",
+      "exchange":"",
+      "write":".*",
+      "read":".*"
+    },
+    {
+      "user": "admin",
       "vhost":"/",
       "exchange":"",
       "write":".*",
@@ -37,6 +57,10 @@
     {
       "name": "cluster_name",
       "value": "rabbit@my-rabbit"
+    },
+    {
+      "name": "internal_cluster_id",
+      "value": "rabbitmq-cluster-id-fBlXlF8ZzdFhhNCMG7vY-A"
     }
   ],
   "policies": [],

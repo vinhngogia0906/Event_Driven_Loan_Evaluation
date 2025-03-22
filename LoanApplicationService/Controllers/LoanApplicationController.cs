@@ -48,10 +48,12 @@ namespace LoanApplicationService.Controllers
         {
             var application = new LoanApplication
             {
+                Id = Guid.NewGuid(),
                 Name = name,
                 LoanLimit = limit,
                 Purpose = purpose,
-                CustomerId = customerId
+                CustomerId = customerId,
+                Approved = false
             };
             _loanApplicationDbContext.LoanApplications.Add(application);
             await _loanApplicationDbContext.SaveChangesAsync();
@@ -63,7 +65,7 @@ namespace LoanApplicationService.Controllers
                 LoanLimit = application.LoanLimit,
                 Purpose = application.Purpose,
                 CustomerId = application.CustomerId,
-                Approved = false
+                Approved = application.Approved
             });
 
             await _rabbitMqUtil.PublishMessageQueue("loanEvaluation.loanApplication", loanApplication);

@@ -25,6 +25,15 @@ namespace CustomerService.Controllers
             return await _customerDbContext.Customers.ToListAsync();
         }
 
+        [HttpGet]
+        [Route("customerLoanApplications")]
+        public async Task<ActionResult<IEnumerable<LoanApplication>>>GetCustomerLoanApplications()
+        {
+            return await _customerDbContext.LoanApplications
+                //.Where(l => l.CustomerId == customerId)
+                .ToListAsync();
+        }
+
 
         [HttpPost]
         [Route("register")]
@@ -32,6 +41,7 @@ namespace CustomerService.Controllers
         {
             var customer = new Customer
             {
+                Id = Guid.NewGuid(),
                 Name = name,
                 Email = email
             };

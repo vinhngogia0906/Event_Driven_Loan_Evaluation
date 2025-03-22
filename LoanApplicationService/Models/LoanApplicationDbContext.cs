@@ -12,12 +12,6 @@ namespace LoanApplicationService.Models
         {
             
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<LoanApplication>()
-                .Property(c => c.Id)
-                .HasDefaultValueSql("hex(randomblob(16))");  // Auto-generate GUIDs
-        }
         public DbSet<LoanApplication> LoanApplications { get; set; }
     }
 }

@@ -10,8 +10,8 @@ namespace CustomerService.RabbitMq
             var factory = new ConnectionFactory()
             {
                 HostName = "my-rabbit",
-                UserName = "guest",
-                Password = "guest"
+                UserName = "admin",
+                Password = "WDb3#Je9h4q6l"
             };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
