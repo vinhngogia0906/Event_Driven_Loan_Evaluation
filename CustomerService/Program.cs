@@ -6,7 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<CustomerDbContext>(optionsAction: options => options.UseSqlite("Data Source=customerService.db"));
-builder.Services.AddSingleton<IRabbitMqUtil, RabbitMqUtil>();
+builder.Services.AddSingleton<IRabbitMqUtil, RabbitMqUtil>()
+    .AddHostedService<RabbitMqService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -27,10 +27,10 @@ namespace CustomerService.Controllers
 
         [HttpGet]
         [Route("customerLoanApplications")]
-        public async Task<ActionResult<IEnumerable<LoanApplication>>>GetCustomerLoanApplications()
+        public async Task<ActionResult<IEnumerable<LoanApplication>>>GetCustomerLoanApplications(Guid customerId)
         {
             return await _customerDbContext.LoanApplications
-                //.Where(l => l.CustomerId == customerId)
+                .Where(l => l.CustomerId == customerId)
                 .ToListAsync();
         }
 

@@ -26,9 +26,12 @@ namespace LoanApplicationService.Controllers
         }
 
         [HttpPut]
-        [Route("updateLoanApplications")]
-        public async Task<ActionResult<LoanApplication>> UpdateLoanApplication(LoanApplication application)
+        [Route("updateLoanApplicationsApproval")]
+        public async Task<ActionResult<LoanApplication>> UpdateLoanApplication(Guid applicationId, bool approvalStatus)
         {
+            var application = await _loanApplicationDbContext.LoanApplications
+                .FirstOrDefaultAsync(l => l.Id == applicationId);
+            application.Approved = approvalStatus;
             _loanApplicationDbContext.LoanApplications.Update(application);
             await _loanApplicationDbContext.SaveChangesAsync();
 
@@ -38,6 +41,8 @@ namespace LoanApplicationService.Controllers
                 Name = application.Name,
                 LoanLimit = application.LoanLimit,
                 Purpose = application.Purpose,
+                CustomerId = application.CustomerId,
+                Approved = application.Approved
             });
             return CreatedAtAction("GetLoanApplications", new { application.Id }, application);
         }
