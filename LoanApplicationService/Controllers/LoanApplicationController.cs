@@ -42,8 +42,10 @@ namespace LoanApplicationService.Controllers
                 LoanLimit = application.LoanLimit,
                 Purpose = application.Purpose,
                 CustomerId = application.CustomerId,
-                Approved = application.Approved
+                Approved = application.Approved,
+                Cancelled = application.Cancelled
             });
+            await _rabbitMqUtil.PublishMessageQueue("loanEvaluation.loanApplication", loanApplication);
             return CreatedAtAction("GetLoanApplications", new { application.Id }, application);
         }
 
@@ -58,7 +60,8 @@ namespace LoanApplicationService.Controllers
                 LoanLimit = limit,
                 Purpose = purpose,
                 CustomerId = customerId,
-                Approved = false
+                Approved = false,
+                Cancelled = false
             };
             _loanApplicationDbContext.LoanApplications.Add(application);
             await _loanApplicationDbContext.SaveChangesAsync();
@@ -70,7 +73,8 @@ namespace LoanApplicationService.Controllers
                 LoanLimit = application.LoanLimit,
                 Purpose = application.Purpose,
                 CustomerId = application.CustomerId,
-                Approved = application.Approved
+                Approved = application.Approved,
+                Cancelled = application.Cancelled
             });
 
             await _rabbitMqUtil.PublishMessageQueue("loanEvaluation.loanApplication", loanApplication);

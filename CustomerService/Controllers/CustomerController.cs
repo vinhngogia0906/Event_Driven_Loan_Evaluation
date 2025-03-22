@@ -34,6 +34,13 @@ namespace CustomerService.Controllers
                 .ToListAsync();
         }
 
+        [HttpGet]
+        [Route("getLoanApplications")]
+        public async Task<ActionResult<IEnumerable<LoanApplication>>> GetLoanApplications()
+        {
+            return await _customerDbContext.LoanApplications.ToListAsync();
+        }
+
 
         [HttpPost]
         [Route("register")]
@@ -55,6 +62,28 @@ namespace CustomerService.Controllers
             });
             await _rabbitMqUtil.PublishMessageQueue("loanEvaluation.customer", newCustomer);
             return CreatedAtAction("GetCustomers", new { customer.Id }, customer);
+        }
+
+        [HttpPut]
+        [Route("cancelLoanApplication")]
+        public async Task<ActionResult<LoanApplication>> CancelLoanApplication(Guid applicationId)
+        {
+            var application = await _customerDbContext.LoanApplications
+                .FirstOrDefaultAsync(l => l.Id == applicationId);
+            application.Cancelled = true;
+            await _customerDbContext.SaveChangesAsync();
+            var loanApplication = JsonSerializer.Serialize(new LoanApplication
+            {
+                Id = application.Id,
+                Name = application.Name,
+                LoanLimit = application.LoanLimit,
+                Purpose = application.Purpose,
+                CustomerId = application.CustomerId,
+                Approved = application.Approved,
+                Cancelled = application.Cancelled
+            });
+            await _rabbitMqUtil.PublishMessageQueue("loanEvaluation.customer", loanApplication);
+            return CreatedAtAction("GetLoanApplications", new { application.Id }, application);
         }
 
     }

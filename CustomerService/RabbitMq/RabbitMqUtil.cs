@@ -45,7 +45,7 @@ namespace CustomerService.RabbitMq
                 await ParseLoanApplicationMessage(body, ea, cancellationToken);
             };
 
-            channel.BasicConsume(queue: "loanEvaluation.loanApplication",
+            channel.BasicConsume(queue: routingKey,
                                  autoAck: true,
                                  consumer: consumer);
             await Task.CompletedTask;
@@ -72,6 +72,7 @@ namespace CustomerService.RabbitMq
                     loanApplication.LoanLimit = data["LoanLimit"].Value<int>();
                     loanApplication.Purpose = data["Purpose"].Value<string>();
                     loanApplication.Approved = data["Approved"].Value<bool>();
+                    loanApplication.Cancelled = data["Cancelled"].Value<bool>();
                     Console.WriteLine("Updated loan application");
                 }
                 else
