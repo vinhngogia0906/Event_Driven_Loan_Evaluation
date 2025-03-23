@@ -43,11 +43,16 @@ namespace CustomerService.Controllers
 
         [HttpPost]
         [Route("signin")]
-        public async Task<ActionResult<bool>> SignIn(string name, string email)
+        public async Task<ActionResult<Guid>> SignIn(string name, string email)
         {
             var customer = await _customerDbContext.Customers
                 .FirstOrDefaultAsync(c => c.Email == email && c.Name == name);
-            return customer != null;
+            if (customer == null)
+            {
+                return NotFound("User not found"); // Return 404 if user is not found
+            }
+
+            return customer.Id;
         }
 
         [HttpPost]

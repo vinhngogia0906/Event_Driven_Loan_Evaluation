@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthenticateService } from '../authenticate.service';
+import { ConfigService } from '../config.service';
 
 @Component({
   selector: 'app-signin',
@@ -10,8 +11,11 @@ import { AuthenticateService } from '../authenticate.service';
 export class SigninComponent {
   fullName: string = '';
   email: string = '';
+  backendUrl: string;
 
-  constructor(private authService: AuthenticateService) {}
+  constructor(private authService: AuthenticateService, private configService: ConfigService) {
+    this.backendUrl = this.configService.backendUrl;
+  }
 
   onSubmit(): void {
     this.authService.login(this.fullName, this.email);

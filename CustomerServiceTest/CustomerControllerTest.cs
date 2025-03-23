@@ -131,9 +131,9 @@ namespace CustomerServiceTest
             // Submit the sign in request
             var result = await _controller.SignIn(name, email);
 
-            // Assert, verify the return value is true
-            var actionResult = Assert.IsType<ActionResult<bool>>(result);
-            var returnValue = Assert.IsType<bool>(actionResult.Value);
+            // Assert, verify the return value is has valid Guid
+            var actionResult = Assert.IsType<ActionResult<Guid>>(result);
+            var returnValue = Assert.IsType<bool>(actionResult.Value != null);
             Assert.True(returnValue);
         }
 

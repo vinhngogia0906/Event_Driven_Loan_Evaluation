@@ -1,20 +1,77 @@
 <h2>Dashboard</h2>
-<button (click)="logout()">Logout</button>
+<div style="text-align: center;">
+  <button (click)="logout()">Logout</button>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <button (click)="toggleForm()">
+    {{ showForm ? 'Close' : 'Apply New Loan' }}
+  </button>
+</div>
+
+<div *ngIf="showForm" class="loan-form">
+  <h3>New Loan Application</h3>
+  <form (ngSubmit)="submitLoan()" class="loan-form">
+    <label for="loanType">Loan Type:</label>
+    <select id="loanType" [(ngModel)]="loanType" name="loanType" required>
+      <option value="" disabled selected>Select a loan type</option>
+      <option value="Home Loan">Home Loan</option>
+      <option value="Car Loan">Car Loan</option>
+      <option value="Business Loan">Business Loan</option>
+      <option value="Gun Loan">Gun Loan</option>
+    </select>
+  
+    <label for="loanLimit">Loan Limit:</label>
+    <select id="loanLimit" [(ngModel)]="loanLimit" name="loanLimit" required>
+      <option value="" disabled selected>Select a limit</option>
+      <option *ngFor="let val of [10000, 50000, 100000, 200000, 500000]" [value]="val">
+        {{ val | currency }}
+      </option>
+    </select>
+  
+    <label for="loanPurpose">Purpose:</label>
+    <textarea
+      id="loanPurpose"
+      name="loanPurpose"
+      rows="2"
+      [(ngModel)]="loanPurpose"
+      required
+    ></textarea>
+  
+    <button type="submit">Submit Application</button>
+  </form>
+</div>
 
 <h3>Your Loan Applications</h3>
 <table>
   <thead>
     <tr>
       <th>ID</th>
-      <th>Amount</th>
-      <th>Status</th>
+      <th>Name</th>
+      <th>Loan Limit</th>
+      <th>Purpose</th>
+      <th>Approved</th>
+      <th>Cancelled</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let loan of loans">
       <td>{{ loan.id }}</td>
-      <td>{{ loan.amount }}</td>
-      <td>{{ loan.status }}</td>
+      <td>{{ loan.name }}</td>
+      <td>{{ loan.loanLimit | currency }}</td>
+      <td>{{ loan.purpose }}</td>
+      <td>{{ loan.approved ? 'Yes' : 'No' }}</td>
+      <td>{{ loan.cancelled ? 'Yes' : 'No' }}</td>
+      <td>
+        <button
+          *ngIf="!loan.cancelled"
+          (click)="cancelLoan(loan.id)"
+          class="cancel-btn"
+        >
+          Cancel and Run away
+        </button>
+      </td>
     </tr>
   </tbody>
 </table>

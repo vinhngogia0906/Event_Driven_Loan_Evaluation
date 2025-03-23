@@ -1,6 +1,20 @@
 # CustomerPortalApp
+Welcome to the VinNance Credit Customer Service Portal Application.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4 and serves as the frontend application for [Customer Service](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/CustomerService).
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+## Getting Started
+This is how you set up and run the project locally in your environment.
+
+1. Make sure you follow the master README [here](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation) first and you get all the Docker services running.
+2. Click the customerportal service or navigate to `http://localhost:4200/` with the browser to access the application.
+![Docker Container](image-1.png)
+3. Sign in or Sign up if you don't have a user credentials
+![Sign In](image-2.png)
+![Sign Up](image-3.png)
+4. Submit New Loan.
+![Submit new loan](image-4.png)
+5. Cancel the loan to run away.
+![Cancel loan](image-5.png)
 
 ## Development server
 
