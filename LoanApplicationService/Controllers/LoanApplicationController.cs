@@ -26,8 +26,8 @@ namespace LoanApplicationService.Controllers
         }
 
         [HttpPut]
-        [Route("updateLoanApplicationsApproval")]
-        public async Task<ActionResult<LoanApplication>> UpdateLoanApplication(Guid applicationId, bool approvalStatus)
+        [Route("updateLoanApplicationApproval")]
+        public async Task<ActionResult<LoanApplication>> UpdateLoanApplicationApproval(Guid applicationId, bool approvalStatus)
         {
             var application = await _loanApplicationDbContext.LoanApplications
                 .FirstOrDefaultAsync(l => l.Id == applicationId);

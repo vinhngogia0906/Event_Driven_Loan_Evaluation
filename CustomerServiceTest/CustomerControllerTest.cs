@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 
-namespace CustomerService.Tests
+namespace CustomerServiceTest
 {
     public class CustomerControllerTests
     {
@@ -16,11 +16,16 @@ namespace CustomerService.Tests
         public CustomerControllerTests()
         {
             var options = new DbContextOptionsBuilder<CustomerDbContext>()
-                .UseInMemoryDatabase(databaseName: "TestDatabase")
+                .UseInMemoryDatabase(databaseName: "CustomerServiceDatabase")
                 .Options;
             _dbContext = new CustomerDbContext(options);
             _mockRabbitMqUtil = new Mock<IRabbitMqUtil>();
             _controller = new CustomerController(_dbContext, _mockRabbitMqUtil.Object);
+
+            // Empty database
+            _dbContext.Customers.RemoveRange(_dbContext.Customers);
+            _dbContext.LoanApplications.RemoveRange(_dbContext.LoanApplications);
+            _dbContext.SaveChanges();
 
             // Seed the in-memory database with test data
             SeedDatabase();

@@ -24,5 +24,7 @@ jobs:
       run: dotnet restore LoanApplicationService/LoanApplicationService.sln
     - name: Build
       run: dotnet build LoanApplicationService/LoanApplicationService.sln --configuration Debug --no-restore
-    - name: Test
+    - name: Run CustomerServiceTest
       run: dotnet test CustomerServiceTest/CustomerServiceTest.csproj --no-build --verbosity normal
+    - name: Run LoanApplicationServiceTest
+      run: dotnet test LoanApplicationServiceTest/CustomerServiceTest.csproj --no-build --verbosity normal
