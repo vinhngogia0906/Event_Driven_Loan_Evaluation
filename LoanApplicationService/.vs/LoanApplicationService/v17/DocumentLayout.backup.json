@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -20,9 +23,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\controllers\\loanapplicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,24 +94,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "..\\CustomerService\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "..\\CustomerService\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAPAAAAAAAAAA==",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Controllers\\CustomerController.cs*",
+              "RelativeToolTip": "..\\CustomerService\\Controllers\\CustomerController.cs*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwE8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T13:35:43.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -124,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RabbitMqService.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqService.cs",
               "RelativeDocumentMoniker": "RabbitMq\\RabbitMqService.cs",
@@ -137,20 +137,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RabbitMqUtil.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqUtil.cs",
               "RelativeDocumentMoniker": "RabbitMq\\RabbitMqUtil.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqUtil.cs*",
-              "RelativeToolTip": "RabbitMq\\RabbitMqUtil.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwD4AAAA9AAAAAAAAAA==",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqUtil.cs",
+              "RelativeToolTip": "RabbitMq\\RabbitMqUtil.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwD4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T13:54:33.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -163,12 +163,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RabbitMqUtil.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
               "RelativeDocumentMoniker": "..\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqUtil.cs*",
-              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\RabbitMqUtil.cs*",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
+              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAIwEoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T14:53:34.066Z",
