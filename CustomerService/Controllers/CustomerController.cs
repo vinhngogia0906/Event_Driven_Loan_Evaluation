@@ -41,6 +41,14 @@ namespace CustomerService.Controllers
             return await _customerDbContext.LoanApplications.ToListAsync();
         }
 
+        [HttpPost]
+        [Route("signin")]
+        public async Task<ActionResult<bool>> SignIn(string name, string email)
+        {
+            var customer = await _customerDbContext.Customers
+                .FirstOrDefaultAsync(c => c.Email == email && c.Name == name);
+            return customer != null;
+        }
 
         [HttpPost]
         [Route("register")]

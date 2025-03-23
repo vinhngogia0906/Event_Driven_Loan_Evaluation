@@ -53,3 +53,11 @@ services:
       timeout: 10s
       retries: 5
     
+  customerportal:
+    build:
+      context: ./customer-portal-app
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
+    depends_on:
+      - customerservice

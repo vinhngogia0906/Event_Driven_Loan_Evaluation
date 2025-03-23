@@ -122,6 +122,22 @@ namespace CustomerServiceTest
         }
 
         [Fact]
+        public async Task SignIn_ReturnsTrue_WhenCustomerExists()
+        {
+            // Arrange
+            var name = "John Doe";
+            var email = "john.doe@example.com";
+
+            // Act
+            var result = await _controller.SignIn(name, email);
+
+            // Assert
+            var actionResult = Assert.IsType<ActionResult<bool>>(result);
+            var returnValue = Assert.IsType<bool>(actionResult.Value);
+            Assert.True(returnValue);
+        }
+
+        [Fact]
         public async Task CancelLoanApplication_CancelsLoanApplicationAndPublishesMessage()
         {
             // Create a loan application and push a event to rabbitmq
