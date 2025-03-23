@@ -1,0 +1,20 @@
+<h2>Dashboard</h2>
+<button (click)="logout()">Logout</button>
+
+<h3>Your Loan Applications</h3>
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Amount</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let loan of loans">
+      <td>{{ loan.id }}</td>
+      <td>{{ loan.amount }}</td>
+      <td>{{ loan.status }}</td>
+    </tr>
+  </tbody>
+</table>
