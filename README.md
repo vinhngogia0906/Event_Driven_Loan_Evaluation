@@ -10,7 +10,7 @@ This is [Vinh Ngo](https://github.com/vinhngogia0906) attempt to learn about eve
 3. [Customer Service Portal](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/customer-portal-app)
   This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6 and serves as the frontend application for [Customer Service](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/CustomerService) application.
 4. [Loan Application Service Portal](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/loan-application-portal)
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6 and serves as the frontend application for [Loan Application Service](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/LoanApplicationService) application.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), has Typescript as the language and serves as the frontend application for [Loan Application Service](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/LoanApplicationService) application.
 5. [Customer Service Test](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/CustomerServiceTest)
   This is the xUnit application for unit testing the [Customer Service](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/CustomerService), its test cases are also run by the Git Action CI process whenever the `main` branch changes.
 6. [Loan Application Service Test](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/LoanApplicationServiceTest)

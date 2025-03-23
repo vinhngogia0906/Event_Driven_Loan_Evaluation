@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# Loan Application Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This application serves as a User Interface to communicate with the [Loan Application Service](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/LoanApplicationService) application.
+
+
+## Getting Started
+This is how you set up and run the project locally in your environment.
+
+1. Open the `settlement-service-ui` folder inside the cloned [repository](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService) with Visual Studio Code.
+2. Install all the enlisted packages (only after you meet all the version requirements above):
+```
+npm install 
+```
+3. Follow the [InfoTrack Settlement Service Engine](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService/tree/main/SettlementService)'s instruction to start it up in debug mode.
+4. Check the Uri and the listening port from your local setup of [InfoTrack Settlement Service Engine](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService/tree/main/SettlementService) and update it in the `.env` file if not match. In this case, it is `https://localhost:7206/api/Booking`, but it might be different when you start debugging in your environment.
+5. Run the application with this command.
+```
+npm run start
+```
+6. Navigate to `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
+
+7. Use the form to submit your booking entry for InfoTrack Settlement Service.
+![Booking submission form](image-1.png)
+![Booking confirmed](image-2.png)
+![Booking is outside of business hours](image-3.png)
 
 ## Available Scripts
 
