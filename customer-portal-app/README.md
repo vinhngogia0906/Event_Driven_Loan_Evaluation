@@ -9,12 +9,12 @@ This is how you set up and run the project locally in your environment.
 2. Click the customerportal service or navigate to `http://localhost:4200/` with the browser to access the application.
 ![Docker Container](image-1.png)
 3. Sign in or Sign up if you don't have a user credentials
-![Sign In](image-2.png)
-![Sign Up](image-3.png)
+![Sign In](signin.png)
+![Sign Up](signup.png)
 4. Submit New Loan.
-![Submit new loan](image-4.png)
+![Submit new loan](newloan.png)
 5. Cancel the loan to run away.
-![Cancel loan](image-5.png)
+![Cancel loan](runaway.png)
 
 ## Development server
 

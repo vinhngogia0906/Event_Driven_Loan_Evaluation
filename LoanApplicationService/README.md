@@ -13,4 +13,4 @@ This is how you set up and run the project locally in your environment.
 2. Click the loanapplicationservice service or navigate to `http://localhost:8080/` with the browser to access the application.
 ![Docker Container](image-1.png)
 3. A browser tab will be open and you will see the Swagger playground GUI where you can examine the schema and all the API Documentation if you nagivate to `http://localhost:8080/swagger/index.html`.
-![Swagger playground GUI](image-2.png)
+![Swagger playground GUI](swagger.png)
