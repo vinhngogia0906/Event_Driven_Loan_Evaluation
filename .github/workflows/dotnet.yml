@@ -27,4 +27,4 @@ jobs:
     - name: Run CustomerServiceTest
       run: dotnet test CustomerServiceTest/CustomerServiceTest.csproj --no-build --verbosity normal
     - name: Run LoanApplicationServiceTest
-      run: dotnet test LoanApplicationServiceTest/CustomerServiceTest.csproj --no-build --verbosity normal
+      run: dotnet test LoanApplicationServiceTest/LoanApplicationServiceTest.csproj --no-build --verbosity normal
