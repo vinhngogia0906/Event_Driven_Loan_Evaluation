@@ -6,11 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Getting Started
 This is how you set up and run the project locally in your environment.
 
-1. Open the `settlement-service-ui` folder inside the cloned [repository](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService) with Visual Studio Code.
-2. Install all the enlisted packages (only after you meet all the version requirements above):
-```
-npm install 
-```
+1. Make sure you follow the master README [here](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation) first and you get all the Docker services running.
+2. Click the customerportal service or navigate to `http://localhost:3000/` with the browser to access the application.
+![Docker Container](image-1.png)
 3. Follow the [InfoTrack Settlement Service Engine](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService/tree/main/SettlementService)'s instruction to start it up in debug mode.
 4. Check the Uri and the listening port from your local setup of [InfoTrack Settlement Service Engine](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService/tree/main/SettlementService) and update it in the `.env` file if not match. In this case, it is `https://localhost:7206/api/Booking`, but it might be different when you start debugging in your environment.
 5. Run the application with this command.
