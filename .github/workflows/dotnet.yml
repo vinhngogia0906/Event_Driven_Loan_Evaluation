@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore ../../LoanApplicationService/LoanApplicationService.sln
+      run: dotnet restore LoanApplicationService/LoanApplicationService.sln
     - name: Build
-      run: dotnet build ../../LoanApplicationService/LoanApplicationService.sln --configuration Debug --no-restore
+      run: dotnet build LoanApplicationService/LoanApplicationService.sln --configuration Debug --no-restore
     - name: Test
-      run: dotnet test ../../CustomerServiceTest/CustomerServiceTest.csproj --no-build --verbosity normal
+      run: dotnet test CustomerServiceTest/CustomerServiceTest.csproj --no-build --verbosity normal
