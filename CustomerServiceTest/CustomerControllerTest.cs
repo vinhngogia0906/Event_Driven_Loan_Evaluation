@@ -124,14 +124,14 @@ namespace CustomerServiceTest
         [Fact]
         public async Task SignIn_ReturnsTrue_WhenCustomerExists()
         {
-            // Arrange
+            // Try to sign in with a customer that exists
             var name = "John Doe";
             var email = "john.doe@example.com";
 
-            // Act
+            // Submit the sign in request
             var result = await _controller.SignIn(name, email);
 
-            // Assert
+            // Assert, verify the return value is true
             var actionResult = Assert.IsType<ActionResult<bool>>(result);
             var returnValue = Assert.IsType<bool>(actionResult.Value);
             Assert.True(returnValue);

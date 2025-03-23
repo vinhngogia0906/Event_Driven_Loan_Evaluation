@@ -12,5 +12,8 @@ git clone https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation.git
 ```
 docker-compose up -d
 ```
-4. Make sure all the services are running before testing
-
+4. Wait for the RabbitMq service to finish spinning up (the disk usage will go down drastically), then start the two service applications and finally start the two portal applications. Make sure all the services are running before testing.
+![Docker Desktop Screen](image-1.png)
+5. Follow the instructions in the README files of the Customer Service Portal and Loan Application Portal applications to start using the Loan Evaluation Platform.
+  - [Customer Service Portal](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/customer-portal-app)
+  - [Loan Application Service Portal](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation/tree/main/loan-application-portal) 

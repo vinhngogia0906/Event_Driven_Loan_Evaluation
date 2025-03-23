@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8C7A9DE-E674-4EB3-89F4-4C38C8F12CC5}|..\\CustomerServiceTest\\CustomerServiceTest.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservicetest\\customerservicetest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B8C7A9DE-E674-4EB3-89F4-4C38C8F12CC5}|..\\CustomerServiceTest\\CustomerServiceTest.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservicetest\\customercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8C7A9DE-E674-4EB3-89F4-4C38C8F12CC5}|..\\CustomerServiceTest\\CustomerServiceTest.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservicetest\\customercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8C7A9DE-E674-4EB3-89F4-4C38C8F12CC5}|..\\CustomerServiceTest\\CustomerServiceTest.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservicetest\\customerservicetest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -123,13 +123,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CustomerServiceTest",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerServiceTest.csproj",
               "RelativeDocumentMoniker": "..\\CustomerServiceTest\\CustomerServiceTest.csproj",
               "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerServiceTest.csproj",
               "RelativeToolTip": "..\\CustomerServiceTest\\CustomerServiceTest.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-03-23T04:28:36.272Z",
               "EditorCaption": ""
@@ -162,13 +162,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CustomerControllerTest.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerControllerTest.cs",
               "RelativeDocumentMoniker": "..\\CustomerServiceTest\\CustomerControllerTest.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerControllerTest.cs*",
-              "RelativeToolTip": "..\\CustomerServiceTest\\CustomerControllerTest.cs*",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAMwIAAAAAvAAAAAAAAAA==",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerControllerTest.cs",
+              "RelativeToolTip": "..\\CustomerServiceTest\\CustomerControllerTest.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAIA0wIUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T04:29:01.914Z",
               "EditorCaption": ""
