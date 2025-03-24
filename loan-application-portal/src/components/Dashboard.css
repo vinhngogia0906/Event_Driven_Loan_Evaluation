@@ -1,0 +1,5 @@
+.logo img {
+    width: 250px; /* Adjust the size of your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem;
+}

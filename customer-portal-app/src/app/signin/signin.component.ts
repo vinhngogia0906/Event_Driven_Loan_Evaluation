@@ -9,12 +9,14 @@ import { ConfigService } from '../config.service';
   styleUrl: './signin.component.css'
 })
 export class SigninComponent {
+  logoPath: string;
   fullName: string = '';
   email: string = '';
   backendUrl: string;
 
   constructor(private authService: AuthenticateService, private configService: ConfigService) {
     this.backendUrl = this.configService.backendUrl;
+    this.logoPath = 'assets/logo.png';
   }
 
   onSubmit(): void {
