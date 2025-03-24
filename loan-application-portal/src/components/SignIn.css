@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signin-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the size of your logo */
+    margin-bottom: 1rem;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .signin-form {
+    margin-top: 1.5rem;
+  }
+  
+  .signin-form h2 {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .signin-form label {
+    display: block;
+    font-size: 0.875rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signin-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .signin-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .signin-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+  .logo img {
+    width: 150px; /* Adjust the size of your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1rem;
+  }

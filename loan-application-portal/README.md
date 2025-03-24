@@ -9,18 +9,12 @@ This is how you set up and run the project locally in your environment.
 1. Make sure you follow the master README [here](https://github.com/vinhngogia0906/Event_Driven_Loan_Evaluation) first and you get all the Docker services running.
 2. Click the customerportal service or navigate to `http://localhost:3000/` with the browser to access the application.
 ![Docker Container](image-1.png)
-3. Follow the [InfoTrack Settlement Service Engine](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService/tree/main/SettlementService)'s instruction to start it up in debug mode.
-4. Check the Uri and the listening port from your local setup of [InfoTrack Settlement Service Engine](https://github.com/vinhngogia0906/VinhNgo-InfoTrack-SettlementService/tree/main/SettlementService) and update it in the `.env` file if not match. In this case, it is `https://localhost:7206/api/Booking`, but it might be different when you start debugging in your environment.
-5. Run the application with this command.
-```
-npm run start
-```
-6. Navigate to `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
-
-7. Use the form to submit your booking entry for InfoTrack Settlement Service.
-![Booking submission form](image-1.png)
-![Booking confirmed](image-2.png)
-![Booking is outside of business hours](image-3.png)
+3. Sign in with username `admin` and password `password` to access the dashboard
+![Sign In](SignIn.png)
+4. Approve the loan application by clicking the green Approve button.
+![Approve loans](Approve.png)
+5. Disapprove the loan application by clicking the red Disapprove button.
+![Cancel loan](runaway.png)
 
 ## Available Scripts
 
