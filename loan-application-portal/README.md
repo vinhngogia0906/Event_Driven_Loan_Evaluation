@@ -14,7 +14,7 @@ This is how you set up and run the project locally in your environment.
 4. Approve the loan application by clicking the green Approve button.
 ![Approve loans](Approve.png)
 5. Disapprove the loan application by clicking the red Disapprove button.
-![Cancel loan](runaway.png)
+![Cancel loan](Disapprove.png)
 
 ## Available Scripts
 

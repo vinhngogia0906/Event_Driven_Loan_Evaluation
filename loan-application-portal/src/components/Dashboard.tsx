@@ -119,8 +119,18 @@ const Dashboard: React.FC = () => {
         ) : loans.length === 0 ? (
             <Typography variant="body1">No loan applications found.</Typography>
         ) : (
-            <TableContainer component={Paper} sx={{ maxWidth: 800, width: '100%' }}>
-            <Table>
+            <TableContainer component={Paper} sx={{ 
+              width: '100%',
+              maxWidth: '95vw',
+              mx: 'auto',     
+              overflow: 'auto'
+            }}>
+            <Table sx={{ 
+                      minWidth: 800,   // Minimum width before scrolling
+                      tableLayout: 'auto' // Auto-layout or 'fixed' for equal columns
+                    }}
+                size="medium"
+            >
                 <TableHead>
                 <TableRow>
                     <TableCell>ID</TableCell>
