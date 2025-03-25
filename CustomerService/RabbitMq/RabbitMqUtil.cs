@@ -62,9 +62,10 @@ namespace CustomerService.RabbitMq
             if (type == "loanEvaluation.loanApplication")
             {
                 var customerGuid = Guid.Parse(data["CustomerId"].Value<string>());
+                var loanGuid = Guid.Parse(data["Id"].Value<string>());
 
                 var loanApplication = await customerDbContext.LoanApplications
-                    .FirstOrDefaultAsync(l => l.CustomerId == customerGuid, cancellationToken);
+                    .FirstOrDefaultAsync(l => l.CustomerId == customerGuid && l.Id == loanGuid, cancellationToken);
 
                 if (loanApplication != null)
                 {
