@@ -5,7 +5,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<CustomerDbContext>(optionsAction: options => options.UseSqlite("Data Source=customerService.db"));
+builder.Services.AddDbContext<CustomerDbContext>(optionsAction: options => options.
+    UseSqlite(builder.Configuration.GetSection("ConnectionStrings").GetValue<string>("SQLiteConnection")));
 builder.Services.AddSingleton<IRabbitMqUtil, RabbitMqUtil>()
     .AddHostedService<RabbitMqService>();
 builder.Services.AddControllers();

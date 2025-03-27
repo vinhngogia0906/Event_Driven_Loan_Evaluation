@@ -11,18 +11,20 @@ namespace LoanApplicationService.RabbitMq
     public class RabbitMqUtil : IRabbitMqUtil
     {
         private readonly IServiceScopeFactory _serviceScopeFactory;
+        private readonly IConfiguration _configuration;
 
-        public RabbitMqUtil(IServiceScopeFactory serviceScopeFactory)
+        public RabbitMqUtil(IServiceScopeFactory serviceScopeFactory, IConfiguration configuration)
         {
             _serviceScopeFactory = serviceScopeFactory;
+            _configuration = configuration;
         }
         public async Task PublishMessageQueue(string routingKey, string eventData)
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "my-rabbit",
-                UserName = "admin",
-                Password = "WDb3#Je9h4q6l"
+                HostName = _configuration.GetValue<string>("RabbitMQConnection:Hostname"),
+                UserName = _configuration.GetValue<string>("RabbitMQConnection:UserName"),
+                Password = _configuration.GetValue<string>("RabbitMQConnection:Password"),
             };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();

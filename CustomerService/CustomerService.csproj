@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\LoanApplicationService</DockerfileContext>
+    <UserSecretsId>074ab36a-f707-481a-8d41-16f486657667</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

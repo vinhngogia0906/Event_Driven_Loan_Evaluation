@@ -5,7 +5,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<LoanApplicationDbContext>(optionsAction: options => options.UseSqlite("Data Source=loanApplicationService.db"));
+builder.Services.AddDbContext<LoanApplicationDbContext>(optionsAction: options => options.
+    UseSqlite(builder.Configuration.GetSection("ConnectionStrings").GetValue<string>("SQLiteConnection")));
 builder.Services.AddSingleton<IRabbitMqUtil, RabbitMqUtil>()
     .AddHostedService<RabbitMqService>();
 builder.Services.AddControllers();

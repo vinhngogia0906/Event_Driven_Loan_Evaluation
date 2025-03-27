@@ -3,6 +3,27 @@
   "WorkspaceRootPath": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -10,8 +31,17 @@
       "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vinhn\\AppData\\Roaming\\Microsoft\\UserSecrets\\074ab36a-f707-481a-8d41-16f486657667\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\customerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -39,13 +69,6 @@
       "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\rabbitmq\\rabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -65,9 +88,6 @@
       "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:rabbitmq\\irabbitmqutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\rabbitmq\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\loanapplicationservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:loanapplicationservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -85,16 +105,6 @@
       "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C5137E7-F6B3-4C24-BF6A-38130A178E3A}|..\\CustomerService\\CustomerService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\customerservice\\customerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|d:\\eventdrivenarchitecture\\event_driven_loan_evaluation\\loanapplicationservice\\loanapplicationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D87D5BFA-A451-4D1A-A2FA-091CFAE327BB}|LoanApplicationService.csproj|solutionrelative:loanapplicationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -106,50 +116,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\Controllers\\CustomerController.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "..\\CustomerService\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:35:43.173Z",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\appsettings.Development.json*",
+              "RelativeToolTip": "appsettings.Development.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T11:34:18.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CustomerServiceTest",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerServiceTest.csproj",
-              "RelativeDocumentMoniker": "..\\CustomerServiceTest\\CustomerServiceTest.csproj",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerServiceTest.csproj",
-              "RelativeToolTip": "..\\CustomerServiceTest\\CustomerServiceTest.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-23T04:28:36.272Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\CustomerService\\appsettings.Development.json",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\appsettings.Development.json*",
+              "RelativeToolTip": "..\\CustomerService\\appsettings.Development.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T11:25:06.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:14:41.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RabbitMqUtil.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqUtil.cs*",
+              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\RabbitMqUtil.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:53:34.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RabbitMqService.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqService.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\RabbitMq\\RabbitMqService.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqService.cs*",
+              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\RabbitMqService.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:20:23.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RabbitMqService.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqService.cs",
               "RelativeDocumentMoniker": "RabbitMq\\RabbitMqService.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqService.cs",
-              "RelativeToolTip": "RabbitMq\\RabbitMqService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAtwBcAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqService.cs*",
+              "RelativeToolTip": "RabbitMq\\RabbitMqService.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBYAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T15:22:47.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "RabbitMqUtil.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqUtil.cs",
+              "RelativeDocumentMoniker": "RabbitMq\\RabbitMqUtil.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqUtil.cs*",
+              "RelativeToolTip": "RabbitMq\\RabbitMqUtil.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwBoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T13:54:33.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\Program.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Program.cs",
+              "RelativeToolTip": "..\\CustomerService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:23:51.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\CustomerService\\appsettings.json",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\appsettings.json",
+              "RelativeToolTip": "..\\CustomerService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T13:56:24.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T14:11:06.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\vinhn\\AppData\\Roaming\\Microsoft\\UserSecrets\\074ab36a-f707-481a-8d41-16f486657667\\secrets.json",
+              "ToolTip": "C:\\Users\\vinhn\\AppData\\Roaming\\Microsoft\\UserSecrets\\074ab36a-f707-481a-8d41-16f486657667\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T11:21:05.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CustomerControllerTest.cs",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerControllerTest.cs",
               "RelativeDocumentMoniker": "..\\CustomerServiceTest\\CustomerControllerTest.cs",
@@ -157,298 +269,35 @@
               "RelativeToolTip": "..\\CustomerServiceTest\\CustomerControllerTest.cs",
               "ViewState": "AgIAAHoAAAAAAAAAAAAMwIcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T04:29:01.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T04:29:01.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Program.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\Program.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Program.cs",
-              "RelativeToolTip": "..\\CustomerService\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:23:51.475Z",
-              "EditorCaption": ""
+              "DocumentIndex": 13,
+              "Title": "CustomerServiceTest.csproj",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerServiceTest.csproj",
+              "RelativeDocumentMoniker": "..\\CustomerServiceTest\\CustomerServiceTest.csproj",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerServiceTest\\CustomerServiceTest.csproj",
+              "RelativeToolTip": "..\\CustomerServiceTest\\CustomerServiceTest.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-23T04:28:36.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:14:41.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoanApplicationServiceTest",
+              "DocumentIndex": 17,
+              "Title": "LoanApplicationServiceTest.csproj",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationServiceTest\\LoanApplicationServiceTest.csproj",
               "RelativeDocumentMoniker": "..\\LoanApplicationServiceTest\\LoanApplicationServiceTest.csproj",
               "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationServiceTest\\LoanApplicationServiceTest.csproj",
               "RelativeToolTip": "..\\LoanApplicationServiceTest\\LoanApplicationServiceTest.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-23T05:12:49.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoanApplicationController.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Controllers\\LoanApplicationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoanApplicationController.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Controllers\\LoanApplicationController.cs",
-              "RelativeToolTip": "Controllers\\LoanApplicationController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwBwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:56:20.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoanApplicationControllerTest.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
-              "RelativeDocumentMoniker": "..\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
-              "RelativeToolTip": "..\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T05:17:07.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\Models\\Customer.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\Customer.cs",
-              "RelativeToolTip": "..\\CustomerService\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:24:33.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerDbContext.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\CustomerDbContext.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\Models\\CustomerDbContext.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\CustomerDbContext.cs",
-              "RelativeToolTip": "..\\CustomerService\\Models\\CustomerDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:29:55.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwCcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-21T12:15:35.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T05:12:49.956Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "RabbitMqUtil.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqUtil.cs",
-              "RelativeDocumentMoniker": "RabbitMq\\RabbitMqUtil.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\RabbitMqUtil.cs",
-              "RelativeToolTip": "RabbitMq\\RabbitMqUtil.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwD4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:54:33.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RabbitMqUtil.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
-              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\RabbitMqUtil.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwEoAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:53:34.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoanApplication.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplication.cs",
-              "RelativeDocumentMoniker": "Models\\LoanApplication.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplication.cs",
-              "RelativeToolTip": "Models\\LoanApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:52:27.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoanApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\LoanApplicationDbContext.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplicationDbContext.cs",
-              "RelativeToolTip": "Models\\LoanApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:52:51.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoanApplication.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\LoanApplication.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\Models\\LoanApplication.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\LoanApplication.cs",
-              "RelativeToolTip": "..\\CustomerService\\Models\\LoanApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T12:05:09.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IRabbitMqUtil.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\IRabbitMqUtil.cs",
-              "RelativeDocumentMoniker": "RabbitMq\\IRabbitMqUtil.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\IRabbitMqUtil.cs",
-              "RelativeToolTip": "RabbitMq\\IRabbitMqUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:11:57.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RabbitMqService.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqService.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\RabbitMq\\RabbitMqService.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\RabbitMqService.cs",
-              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\RabbitMqService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T13:20:23.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoanApplicationService.http",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\LoanApplicationService.http",
-              "RelativeDocumentMoniker": "LoanApplicationService.http",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\LoanApplicationService.http",
-              "RelativeToolTip": "LoanApplicationService.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-22T15:01:36.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IRabbitMqUtil.cs",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
-              "RelativeDocumentMoniker": "..\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
-              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:53:00.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-20T12:46:17.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Dockerfile",
-              "RelativeDocumentMoniker": "..\\CustomerService\\Dockerfile",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Dockerfile",
-              "RelativeToolTip": "..\\CustomerService\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-21T15:39:51.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "..\\CustomerService\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Properties\\launchSettings.json",
-              "RelativeToolTip": "..\\CustomerService\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T13:55:42.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-21T14:11:06.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\CustomerService\\appsettings.json",
-              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\appsettings.json",
-              "RelativeToolTip": "..\\CustomerService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T13:56:24.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
               "Title": "CustomerService.csproj",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\CustomerService.csproj",
               "RelativeDocumentMoniker": "..\\CustomerService\\CustomerService.csproj",
@@ -461,7 +310,187 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "..\\CustomerService\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:35:43.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoanApplicationController.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Controllers\\LoanApplicationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoanApplicationController.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Controllers\\LoanApplicationController.cs",
+              "RelativeToolTip": "Controllers\\LoanApplicationController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwBwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:56:20.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoanApplicationControllerTest.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
+              "RelativeDocumentMoniker": "..\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
+              "RelativeToolTip": "..\\LoanApplicationServiceTest\\LoanApplicationControllerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:17:07.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\Models\\Customer.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\CustomerService\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:24:33.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerDbContext.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\CustomerDbContext.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\Models\\CustomerDbContext.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\CustomerDbContext.cs",
+              "RelativeToolTip": "..\\CustomerService\\Models\\CustomerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:29:55.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T12:15:35.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoanApplication.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplication.cs",
+              "RelativeDocumentMoniker": "Models\\LoanApplication.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplication.cs",
+              "RelativeToolTip": "Models\\LoanApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:52:27.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoanApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\LoanApplicationDbContext.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Models\\LoanApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\LoanApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:52:51.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoanApplication.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\LoanApplication.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\Models\\LoanApplication.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Models\\LoanApplication.cs",
+              "RelativeToolTip": "..\\CustomerService\\Models\\LoanApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:05:09.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRabbitMqUtil.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\IRabbitMqUtil.cs",
+              "RelativeDocumentMoniker": "RabbitMq\\IRabbitMqUtil.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\RabbitMq\\IRabbitMqUtil.cs",
+              "RelativeToolTip": "RabbitMq\\IRabbitMqUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:11:57.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoanApplicationService.http",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\LoanApplicationService.http",
+              "RelativeDocumentMoniker": "LoanApplicationService.http",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\LoanApplicationService.http",
+              "RelativeToolTip": "LoanApplicationService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-22T15:01:36.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IRabbitMqUtil.cs",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
+              "RelativeDocumentMoniker": "..\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
+              "RelativeToolTip": "..\\CustomerService\\RabbitMq\\IRabbitMqUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:53:00.81Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-20T12:46:17.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Dockerfile",
+              "RelativeDocumentMoniker": "..\\CustomerService\\Dockerfile",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Dockerfile",
+              "RelativeToolTip": "..\\CustomerService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-21T15:39:51.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\CustomerService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\CustomerService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\CustomerService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T13:55:42.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "LoanApplicationService.csproj",
               "DocumentMoniker": "D:\\EventDrivenArchitecture\\Event_Driven_Loan_Evaluation\\LoanApplicationService\\LoanApplicationService.csproj",
               "RelativeDocumentMoniker": "LoanApplicationService.csproj",
@@ -469,8 +498,7 @@
               "RelativeToolTip": "LoanApplicationService.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-21T11:53:02.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T11:53:02.219Z"
             }
           ]
         }

@@ -5,20 +5,22 @@ namespace LoanApplicationService.RabbitMq
     public class RabbitMqService : BackgroundService
     {
         private readonly IRabbitMqUtil _rabbitMqUtil;
+        private readonly IConfiguration _configuration;
         private IConnection _connection;
         private IModel _channel;
 
-        public RabbitMqService(IRabbitMqUtil rabbitMqUtil)
+        public RabbitMqService(IRabbitMqUtil rabbitMqUtil, IConfiguration configuration)
         {
             _rabbitMqUtil = rabbitMqUtil;
+            _configuration = configuration;
         }
         public override Task StartAsync(CancellationToken cancellationToken)
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "my-rabbit",
-                UserName = "admin",
-                Password = "WDb3#Je9h4q6l",
+                HostName = _configuration.GetValue<string>("RabbitMQConnection:Hostname"),
+                UserName = _configuration.GetValue<string>("RabbitMQConnection:UserName"),
+                Password = _configuration.GetValue<string>("RabbitMQConnection:Password"),
                 DispatchConsumersAsync = true
             };
             _connection = factory.CreateConnection();
